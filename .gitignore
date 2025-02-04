@@ -32,7 +32,6 @@ extensions/*/dist
 /web/storage/*.key
 /web/storage/db.sqlite
 /web/vendor
-/web/composer.lock
 !.env.example
 !.env.testing
 web/.phpunit.result.cache
