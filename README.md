@@ -54,24 +54,12 @@ These third party tools are complemented by Shopify specific tools to ease app d
 
 ### Installing the template
 
-This template runs on Shopify CLI 3.0, which is a node package that can be included in projects. You can install it using your preferred Node.js package manager:
+This template runs on Shopify CLI 3.0, which is a node package that can be included in projects. You can install it using Shopify CLI:
 
-Using yarn:
-
-```shell
-yarn create @shopify/app --template php
-```
-
-Using npx:
+Using shopify-cli:
 
 ```shell
-npm init @shopify/app@latest -- --template php
-```
-
-Using pnpm:
-
-```shell
-pnpm create @shopify/app@latest --template php
+shopify app init
 ```
 
 This will clone the template and install the CLI in that project.
